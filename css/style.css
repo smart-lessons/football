@@ -1,0 +1,210 @@
+/* Отступы */
+ *{
+    margin:0;
+    padding: 0;
+    
+}
+
+.container{
+    max-width: 1000px;
+    padding: 0 35px;
+    margin: 0 auto;
+}
+h1{
+margin: 50px 0;
+
+
+}
+ h2{
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+ }
+ p{
+
+    margin-bottom: 20px;
+ }
+ ul{
+    padding-left: 33px;
+
+ }
+ .note-1{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 70px;
+ }
+
+
+
+
+/* Текстовые параметры  */
+*{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: 44px; 
+
+}
+
+h2{
+    font-weight: 200;
+    /*font-family: 'Oswald', sans-serif;*/
+    font-family: 'Pacifico', cursive;
+
+    font-size: 35px;
+}
+
+.note-1{
+
+    color: #c11717;
+    text-decoration: none;
+}
+
+.image-left{
+    margin-right: 35px ;
+    margin-bottom: 35px;
+}
+
+.image-spravo{
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+/*медия контент*/
+.image-center{
+   /* width: 600px;*/
+    /*height: 1000px;*/
+    max-width: 60%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 35pxpx;
+}
+
+.image-spravo{
+    max-width: 30%;
+    float: right;
+
+}
+
+
+.image-left{
+    max-width: 21%;
+    float: left;
+
+}
+
+
+.video {
+    width: 75%;
+    aspect-ratio: 16/9;
+    display: block;
+    margin: 40px auto;
+}
+
+
+p {
+    text-align: justify;
+}
+
+
+
+/*Шапка сайта*/
+
+    header {
+        height: 145px;
+        background-color: #202d65;
+    }
+
+.menu {
+    color: white;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.Header-container {
+    max-width: 1000px;
+    padding: 0 35px;
+    margin: 0 auto;
+    padding-top: 40px;
+    text-align: center;
+
+
+}
+.menu:hover{
+
+    color: rgb(238, 255, 0);
+}
+
+
+footer{
+    height: 150px;
+    background-color: #c11717;
+}
+
+.author{
+    color: white
+}
+
+.footer-container{
+    max-width: 1000px;
+    padding: 50px 35px;
+    margin: 0 auto;
+
+    /* padding-top: 40px; */
+    /* text-align: center; */
+}
+
+/* Кнопка */
+h3{
+    text-align: center;
+}
+
+/* Кнопка */
+.button{
+    text-decoration: none;
+    background-color: #0cce29;
+    color: white;
+    display: block;
+    padding: 20px 25px;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius:15px;
+    
+}
+
+
+.button:hover{
+    background-color: #3917c1;
+
+
+}
+
+.chapter{
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    color: #1f3288;
+}
+.chapter:hover{
+    color: #0cce29;
+}
+
+.content{
+    /* background-color: rgb(14, 130, 161); */
+    margin-bottom: 35px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    border-top:dashed;
+    border-bottom: dashed;
+}
